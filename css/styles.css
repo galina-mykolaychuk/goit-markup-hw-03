@@ -71,6 +71,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   align-items: center;
+  padding: 24px 0;
   color: #2e2f42;
 }
 
@@ -169,12 +170,16 @@ a {
 /*------Section 1------*/
 
 .visually-hidden {
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .head-line {
@@ -184,6 +189,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .text-description {
@@ -191,6 +197,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .features-list {
