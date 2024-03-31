@@ -35,7 +35,7 @@ a {
 }
 
 .section {
-  background-color: #fff;
+  background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -71,7 +71,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   align-items: center;
-  padding: 24px 0;
   color: #2e2f42;
 }
 
@@ -189,7 +188,6 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .text-description {
@@ -197,7 +195,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 
 .features-list {
@@ -240,6 +237,24 @@ a {
   padding-bottom: 32px;
 }
 
+.head-line-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.text-description-team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
+
 /*------Section 3------*/
 
 .card-list-one {
@@ -251,7 +266,6 @@ a {
 }
 
 .portfolio-cards {
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-list {
