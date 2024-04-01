@@ -218,6 +218,10 @@ a {
 
 /*------Section 2------*/
 
+.section-our-team {
+  background-color: #f4f4fd;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
