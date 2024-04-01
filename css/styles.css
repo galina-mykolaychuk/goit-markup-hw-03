@@ -35,7 +35,6 @@ a {
 }
 
 .section {
-  background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -84,7 +83,6 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
   display: block;
   color: #2e2f42;
 }
